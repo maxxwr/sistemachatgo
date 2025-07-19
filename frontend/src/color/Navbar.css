@@ -1,0 +1,31 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.navbar .navbar-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  flex: 1; 
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.navbar-link:hover {
+  background-color: #08314d;
+  border-radius: 4px;
+}

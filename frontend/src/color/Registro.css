@@ -1,0 +1,103 @@
+.registro-container {
+  font-family: 'Arial', sans-serif;
+  padding: 30px;
+  max-width: 400px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0); 
+  border: 2px solid #04273f; 
+  border-radius: 0px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+  margin-top: 120px; 
+  backdrop-filter: blur(10px); 
+  color: #333; 
+}
+
+/* Título del formulario */
+.registro-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Estilo para los inputs del formulario */
+.registro-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Botón de registro */
+.registro-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registro-button:hover {
+  background-color: #45a049;
+}
+
+/* Mensaje de error o éxito */
+.registro-mensaje {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Enlace para iniciar sesión */
+.registro-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: white;
+}
+
+.registro-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.registro-link a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+/* Responsivo */
+@media (max-width: 500px) {
+  .registro-container {
+    padding: 20px;
+  }
+
+  .registro-button,
+  .registro-input {
+    font-size: 15px;
+  }
+}
+
+/* estilo para el footer global /afecta a todo */
+.login-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  color: white;
+}
+
+.footer-time {
+  margin-left: 10px;  
+  font-size: 14px;    
+}
