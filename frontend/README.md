@@ -48,6 +48,23 @@ Max:
 
 --------------------------------------------------
 
+## Importar la base de datos `chatgo.sql` desde phpMyAdmin
+
+1. Crea una nueva base de datos llamada `chatgo`.
+2. Selecciona la base de datos `chatgo` y ve a la pestaña importar.
+
+--------------------------------------------------
+
 ----------------------------------------------------------------------------------------------------
-### Configura el archivo .env con la cadena de conexión a la base de datos y la clave secreta de jwt 
+### Configura el archivo `.env` con los siguientes parámetros:
+
+Asegúrate de crear un archivo `.env` en la raíz de tu proyecto **Backend** y agregar las siguientes configuraciones:
+
+```env
+# Poner la cadena de conexión a la base de datos MySQL en (.evn)
+DB_CONNECTION_STRING=root@tcp(127.0.0.1:3306)/chatgo
+---------------------------------------------------
+# Poner la clave secreta JWT en (.evn) 
+JWT_SECRET_KEY=tu_clave_secreta_aqui
+
 ----------------------------------------------------------------------------------------------------

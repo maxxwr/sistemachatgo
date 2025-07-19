@@ -9,6 +9,7 @@ import (
 	"backend/models"
 )
 
+//by MAXXXX
 var upgrader = websocket.Upgrader{}
 
 var clients = make(map[*websocket.Conn]string) 
